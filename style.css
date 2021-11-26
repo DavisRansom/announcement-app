@@ -1,24 +1,13 @@
 *{
-    background-color: lightcyan;
+    background-color: rgb(254, 213, 219);
 }
 
-label {
-    display: block;
-    font: 1rem 'Fira Sans', sans-serif;
-}
-
-input,
-label {
-    margin: .4rem 0;
-}
-
-button {
+.btn-primary {
     text-align: center;
     margin:auto;
     display: flex;
     justify-content: center;
     display: grid;
-    margin-bottom: 20px;
 }
 
 h1 {
@@ -29,6 +18,15 @@ h1 {
     display: grid;
 }
 
-body {
-    margin-bottom: 20px;
+p {
+    text-align: center;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    display: grid;
+}
+
+#image {
+    max-width: 100%;
+    max-height: 100%;
 }

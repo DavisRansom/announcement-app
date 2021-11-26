@@ -14,8 +14,36 @@
 
 <body>
     <h1>Happy Thanksgiving 2021</h1>
-    <br>
-    <button name="button">Click This Mysterious Button To Find Out What's Next!</button>
+    <p><b>Click this mysterious button to find out what's next</b></p>
+
+
+    <!-- Button to launch a modal -->
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+        Click me!
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+
+                <!-- Add image inside the body of modal -->
+                <div class="modal-body">
+                    <img id="image" src="./images/player3.png"
+                        alt="Click on button" />
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                        Close
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
